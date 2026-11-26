@@ -4,6 +4,6 @@ import userController from "../controllers/users.js"
 const router = express.Router()
 
 router
-    .post("/api/v1/users",)
+    .post("/api/v1/users",userController.createUser)
 
 export default router
